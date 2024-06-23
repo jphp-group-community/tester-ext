@@ -44,7 +44,8 @@ class TesterPlugin
         $exec->addVendorClassPath($vendor);
         $exec->addVendorClassPath($vendor, 'dev');
         $exec->addClassPath("./tests/");
-        $exec->setJvmArgs([$event->package()->getAny('tester.jvm-args', [])]); // array должен быть
+        $exec->setJvmArgs($event->package()->getAny('tester.jvm-args', []));
+        //$exec->setJvmArgs([$event->package()->getAny('tester.jvm-args', [])]); // array должен быть
 
         $files = fs::scan("./tests/", ['extensions' => ['php']]);
 
