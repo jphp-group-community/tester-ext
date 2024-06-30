@@ -13,7 +13,7 @@ Unit Testing Framework for JPPM
 1. Add `tester` dependency to `devDeps`.
 
 ```
-jppm add tester -dev
+jppm add tester-ext -dev
 ```
 
 2. Create `tests` directory in root of your package dir.
