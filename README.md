@@ -10,13 +10,13 @@ Unit Testing Framework for JPPM
 
 # How to use?
 
-1. Add `tester` dependency to `devDeps`.
+1. Add `tester-ext` dependency to `devDeps`.
 
 ```
 jppm add tester-ext -dev
 ```
 
-2. Create `tests-ext` directory in root of your package dir.
+2. Create `tests` directory in root of your package dir.
 3. Create your first test class, e.g `tests/SimpleTest.php`:
 
 ```php
